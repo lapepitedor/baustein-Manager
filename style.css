@@ -1,0 +1,87 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.add-category-button {
+  font-size: 20px;
+  cursor: pointer;
+  color: green;
+}
+
+.category-list {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.category-list li {
+  list-style: none;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-category-form {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-category-form input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.add-category-form button {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-category-form button:hover {
+  background-color: #45a049;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+.fas {
+  font-size: 15px;
+}
+
+.category-list {
+  width: 50%;
+  padding-right: 20px;
+}
+.bausteine-table {
+  width: 50%;
+}
